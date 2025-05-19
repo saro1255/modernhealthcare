@@ -1,0 +1,92 @@
+{
+    "pro1": {
+        "name": "Absorbent Gauze",
+        "images": [
+            "assets/images/absorbentgauze.jpg"
+        ],
+        "desc": "Highly absorbent and sterile gauze used in medical applications."
+    },
+    "pro2": {
+        "name": "Bandage Cloth",
+        "images": [
+            "assets/images/bandagecloth.jpg"
+        ],
+        "desc": "Description for product 2 goes here."
+    },
+    "pro3": {
+        "name": "Combined Dressing Pad",
+        "images": [
+            "assets/images/combinedressingpad.jpg",
+            "assets/images/combinedressingpad1.jpg",
+            "assets/images/combinedressingpad2.jpg",
+            "assets/images/combinedressingpad3.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro4": {
+        "name": "Cotton Wool",
+        "images": [
+            "assets/images/cottonwool.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro5": {
+        "name": "Dressing Pad",
+        "images": [
+            "assets/images/dressingpad.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro6": {
+        "name": "Folded Gauze",
+        "images": [
+            "assets/images/foldedgauze.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro7": {
+        "name": "gauze Whole",
+        "images": [
+            "assets/images/gauzewhole.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro8": {
+        "name": "Gauze Swabs",
+        "images": [
+            "assets/images/gauzeswabs.jpg",
+            "assets/images/gauzeswabs1.jpg",
+            "assets/images/gauzeswabs2.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro9": {
+        "name": "Mopping pad",
+        "images": [
+            "assets/images/moppingpad.jpg",
+            "assets/images/moppingpad1.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro10": {
+        "name": "Roller Bandage",
+        "images": [
+            "assets/images/rollerbandage.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro11": {
+        "name": "Starile Dressing Pad",
+        "images": [
+            "assets/images/stariledressingpad.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro12": {
+        "name": "Swabs",
+        "images": [
+            "assets/images/swaps.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    }
+}
