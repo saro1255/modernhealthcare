@@ -7,16 +7,17 @@ import HOmeProducts from "./home/home-products";
 import Footer from "./common/footer";
 
 const App = () => (
-  <div>
-    <Nav />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/home#products" element={<HOmeProducts />} />
-      <Route path="/home#about" element={<Footer />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
-  </div>
+	<div>
+		<Nav />
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="/home" element={<Home />} />
+			<Route path="/home#home" element={<Home />} />
+			<Route path="/home#products" element={<HOmeProducts />} />
+			<Route path="/home#about" element={<Footer />} />
+			<Route path="/about" element={<About />} />
+		</Routes>
+	</div>
 );
 
 export default App;
