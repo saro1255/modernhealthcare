@@ -16,6 +16,7 @@
     "pro3": {
         "name": "Combined Dressing Pad",
         "images": [
+            "assets/images/dressingpad.jpg",
             "assets/images/combinedressingpad.jpg",
             "assets/images/combinedressingpad1.jpg",
             "assets/images/combinedressingpad2.jpg",
@@ -30,24 +31,10 @@
         ],
         "desc": "Description for product 3 goes here."
     },
-    "pro5": {
-        "name": "Dressing Pad",
-        "images": [
-            "assets/images/dressingpad.jpg"
-        ],
-        "desc": "Description for product 3 goes here."
-    },
     "pro6": {
-        "name": "Folded Gauze",
+        "name": "Gamjee Roll",
         "images": [
             "assets/images/foldedgauze.jpg"
-        ],
-        "desc": "Description for product 3 goes here."
-    },
-    "pro7": {
-        "name": "gauze Whole",
-        "images": [
-            "assets/images/gauzewhole.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
@@ -56,7 +43,8 @@
         "images": [
             "assets/images/gauzeswabs.jpg",
             "assets/images/gauzeswabs1.jpg",
-            "assets/images/gauzeswabs2.jpg"
+            "assets/images/gauzeswabs2.jpg",
+            "assets/images/gauzewhole.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
@@ -64,26 +52,29 @@
         "name": "Mopping pad",
         "images": [
             "assets/images/moppingpad.jpg",
-            "assets/images/moppingpad1.jpg"
+            "assets/images/moppingpad1.jpg",
+            "assets/images/moppingpad2.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
     "pro10": {
-        "name": "Roller Bandage",
+        "name": "Single Pack Roller Bandage",
         "images": [
-            "assets/images/rollerbandage.jpg"
+            "assets/images/rollerbandage.jpg",
+            "assets/images/rollerbandage2.jpg",
+            "assets/images/rollerbandage3.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
     "pro11": {
-        "name": "Starile Dressing Pad",
+        "name": "Care & Cure Gauze Pad",
         "images": [
             "assets/images/stariledressingpad.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
     "pro12": {
-        "name": "Swabs",
+        "name": "Non Sterilized Gauze Swabs",
         "images": [
             "assets/images/swaps.jpg"
         ],
