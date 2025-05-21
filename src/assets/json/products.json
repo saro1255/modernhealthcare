@@ -38,13 +38,22 @@
         ],
         "desc": "Description for product 3 goes here."
     },
+    "pro7": {
+        "name": "Cotton Ball",
+        "images": [
+            "assets/images/cottonball.jpg",
+            "assets/images/cottonball1.jpg",
+            "assets/images/cottonball2.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
     "pro8": {
         "name": "Gauze Swabs",
         "images": [
+            "assets/images/gauzewhole.jpg",
             "assets/images/gauzeswabs.jpg",
             "assets/images/gauzeswabs1.jpg",
-            "assets/images/gauzeswabs2.jpg",
-            "assets/images/gauzewhole.jpg"
+            "assets/images/gauzeswabs2.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
@@ -60,9 +69,7 @@
     "pro10": {
         "name": "Single Pack Roller Bandage",
         "images": [
-            "assets/images/rollerbandage.jpg",
-            "assets/images/rollerbandage2.jpg",
-            "assets/images/rollerbandage3.jpg"
+            "assets/images/rollerbandage.jpg"
         ],
         "desc": "Description for product 3 goes here."
     },
@@ -77,6 +84,14 @@
         "name": "Non Sterilized Gauze Swabs",
         "images": [
             "assets/images/swaps.jpg"
+        ],
+        "desc": "Description for product 3 goes here."
+    },
+    "pro13": {
+        "name": "Roller Bandage",
+        "images": [
+            "assets/images/rollerbandage3.jpg",
+            "assets/images/rollerbandage2.jpg"
         ],
         "desc": "Description for product 3 goes here."
     }
