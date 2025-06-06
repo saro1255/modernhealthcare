@@ -21,15 +21,17 @@ export default function Home() {
     return (
         <>
             <div className="row gap-5 h-screen" id="home">
-                <div className="h-screen w-full bg-[url('/assets/images/homeimg.jpg')] bg-no-repeat bg-cover flex justify-center pl-12 md:pl-28 flex-col">
-                    <label className="font-prata tracking-widest text-5xl text-emerald-800">
-                        Care For Your Skin,<br />Care For Your<br />Beauty
-                    </label>
-                    <label className="font-prompt tracking-widest text-md text-emerald-700 mt-7">
-                        Our skin care clinic best dermatologists in<br />
-                        Lahore and Islamabad offer premium <br />
-                        aesthetics.
-                    </label>
+                <div className="h-screen w-full bg-[url('/assets/images/front2.png')] bg-no-repeat bg-cover bg-center">
+                    <div className='flex justify-center pl-12 md:pl-28 flex-col backdrop-blur-sm backdrop-brightness-50 h-full w-full gap-5'>
+                        <label className="font-prompt lg:text-3xl text-2xl flex flex-col gap-2">
+                            <label className='lg:tracking-[.4em] tracking-[.3em] text-emerald-500'>The lifeline to</label>
+                            <label className='tracking-[.3em] text-emerald-300'>HEALTH & CARE</label>
+                        </label>
+                        <label className="font-prompt lg:text-3xl text-2xl flex flex-col gap-2">
+                            <label className='lg:tracking-[.4em] tracking-[.3em] text-emerald-500'>Touching lives with</label>
+                            <label className='tracking-[.3em] text-emerald-300'>CARE & HYGIENE</label>
+                        </label>
+                    </div>
                 </div>
             </div>
 
