@@ -1,0 +1,18 @@
+# Netlify configuration file
+
+[build]
+  # This is the command to build your site
+  command = "npm run build"
+
+  # This is the directory that your build command creates
+  publish = "dist"
+
+[[redirects]]
+  # This rule handles all paths
+  from = "/*"
+
+  # Serve the main index.html file
+  to = "/index.html"
+
+  # With a 200 status code (OK)
+  status = 200

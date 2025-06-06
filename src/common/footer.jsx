@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
 
             <div className="mt-12 text-center text-sm text-gray-500 font-prompt">
-                © {new Date().getFullYear()} Modern Health Care. All rights reserved.
+                © 2025 Modern Health Care. All rights reserved.
             </div>
         </footer>
     );
