@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-4">
                     <h1 className="text-2xl font-bold text-white font-prompt">Modern Health Care</h1>
                     <p className="text-gray-300 text-sm font-prompt">
-                        Bringing you closer to what matters. Discover, connect, and grow with us.
+                        Modern Healthcare delivers trusted medical solutions with decades of expertise, cutting-edge technology, and a commitment to quality care.
                     </p>
                 </div>
 
