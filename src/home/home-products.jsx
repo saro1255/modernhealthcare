@@ -45,6 +45,31 @@ export default function HOmeProducts() {
         touchEndX.current = null;
     };
 
+    function highlightTextFromMarkup(text) {
+        const regex = /\|([^|]+)\|/g;
+        const parts = [];
+        let lastIndex = 0;
+        let match;
+
+        while ((match = regex.exec(text)) !== null) {
+            if (match.index > lastIndex) {
+            parts.push(text.slice(lastIndex, match.index));
+            }
+            parts.push(
+            <mark key={match.index} className="bg-transparent text-teal-800 font-bold">
+                {match[1]}
+            </mark>
+            );
+            lastIndex = regex.lastIndex;
+        }
+
+        if (lastIndex < text.length) {
+            parts.push(text.slice(lastIndex));
+        }
+
+        return parts;
+    }
+
     return (
         <section className="max-w-7xl mx-auto px-4 py-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[250px]">
@@ -77,8 +102,8 @@ export default function HOmeProducts() {
 
             {/* Modal */}
             {selected && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-lg">
-                    <div className="bg-white rounded-2xl max-w-2xl w-full relative shadow-xl lg:m-0 m-2">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-lg h-full max-h-9/10">
+                    <div className="bg-white rounded-2xl max-w-2xl w-full relative shadow-xl lg:m-0 m-2 overflow-y-auto max-h-[92vh]">
                         <button
                             onClick={() => setSelected(null)}
                             className="w-full px-2 text-right text-gray-400 hover:text-black text-2xl"
@@ -121,7 +146,12 @@ export default function HOmeProducts() {
                                 )}
                             </div>
                             <h3 className="text-2xl font-bold text-teal-800 font-prompt mb-2">{selected.name}</h3>
-                            <p className="text-teal-800 font-prompt">{selected.desc}</p>
+                            <p className="text-teal-800 font-prompt text-justify">{selected.desc.split('\n').map((line, index) => (
+                                                                                        <div key={index}>
+                                                                                            {highlightTextFromMarkup(line)}
+                                                                                        </div>
+                                                                                    ))}
+                            </p>
                         </div>
                     </div>
                 </div>
